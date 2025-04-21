@@ -10,11 +10,15 @@ please **use this responsibly** and only test it on urself. this is made for peo
 
 # information
 
-usage: python exploit.py -H host -p port -k (option defaults to the default xworm key
+usage: python rce.py -H host -p port -k (option defaults to the default xworm key
 
 how it works: since XWORM runs powershell on the threat actors computer to make a rdp profile using HRDP (i honestly forgot some because we made this 2 weeks ago) we can use that to run our own powershell code.
 
 where to find c2s: solara discord, malwarebazaar, anyrun, ratting servers (some 'cracked rats' are backdoored), github (search for cracked rats)
+
+# update log stuff
+
+apr 21 2025: added stealth mode so ratters cant see that they got rced (rdp failed to connect thing gets taskkilled immediately)
 
 # tags:
 
