@@ -5,8 +5,8 @@ aka remote code execution on xworm
 
 # discord.gg/exposing
 
-please **use this responsibly** and only test it on urself. this is made for people wondering how xworm works or are just curious to try stuff out+
-
+please **use this responsibly** and only test it on urself. this is made for people wondering how xworm works or are just curious to try stuff out
+and plz credit if you skid this
 
 # information
 
@@ -15,11 +15,3 @@ usage: python rce.py -H host -p port -k (option defaults to the default xworm ke
 how it works: since XWORM runs powershell on the threat actors computer to make a rdp profile using HRDP (i honestly forgot some because we made this 2 weeks ago) we can use that to run our own powershell code.
 
 where to find c2s: solara discord, malwarebazaar, anyrun, ratting servers (some 'cracked rats' are backdoored), github (search for cracked rats)
-
-# update log stuff
-
-apr 21 2025: added stealth mode so ratters cant see that they got rced (rdp failed to connect thing gets taskkilled immediately)
-
-# tags:
-
-xworm rce remote code execution rce exploit xworm 0day xworm exploit
