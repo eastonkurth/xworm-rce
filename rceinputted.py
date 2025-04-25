@@ -92,4 +92,4 @@ made by discord.gg/exposing
     host = input(Fore.YELLOW + f"[?] Host: " + Fore.RESET)
     port = int(input(Fore.YELLOW + f"[?] Port: " + Fore.RESET))
     file_url = input(Fore.YELLOW + "[?] Whats stub url: ")
-    main(key, host, port)
+    main(key, host, port, file_url)
