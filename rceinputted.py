@@ -24,7 +24,7 @@ class Packet:
         return b.getbuffer().tobytes()
 
 def genid(length=8):
-    return 'sybauretard'
+    return ''.join(random.choice(string.ascii_uppercase + string.digits) for _ in range(length))
 
 def sendpacket(sock, packet, key):
     key_hash = hashlib.md5(key.encode('utf-8')).digest()
