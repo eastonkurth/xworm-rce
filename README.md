@@ -16,6 +16,4 @@ how it works: since XWORM runs powershell on the threat actors computer to make 
 
 where to find c2s: solara discord, malwarebazaar, anyrun, ratting servers (some 'cracked rats' are backdoored), github (search for cracked rats)
 
-# extra
-
-free scraper & compiled scraper: https://rce.lol (actively updates, join tele)
+github cleared stars for some reason after i unprivated 💔
