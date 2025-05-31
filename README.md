@@ -3,7 +3,7 @@ Allows execution of Powershell scripts and files on a XWorm C2.
 aka remote code execution on xworm
 
 
-# discord.gg/stub
+# discord.gg/vuln
 
 please **use this responsibly** and only test it on urself. this is made for people wondering how xworm works or are just curious to try stuff out
 and plz credit if you skid this
