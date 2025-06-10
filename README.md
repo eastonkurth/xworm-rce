@@ -6,6 +6,10 @@ theres also a scraper to scrape xworm c2s on ts
 # discord.gg/vuln
 
 please **use this responsibly** and only test it on urself. this is made for people wondering how xworm works or are just curious to try stuff out
+do NOT use this for malicious purposes, only test this on VIRTUAL MACHINES, not your main people
+do not use this on real targets
+use educationaly only
+
 and plz credit if you skid this
 
 # information
